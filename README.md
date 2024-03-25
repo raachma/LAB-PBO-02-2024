@@ -74,6 +74,11 @@
    git commit -m "pesan mengenai penambahan atau perubahan apa yang anda lakukan"
    
    ```
+   Membuat full request
+   - Pada halaman repository, klik tombol pull request, kemudian klik "New pull request".
+   - Ubah brach yang dituju sesuai dengan nim kamu (/md/ss%20pull%20request.jpg)
+   - Lalu create pull request
+
 
 9. Setelah asistensi dan tugas anda disetujui, **push** seluruh _file_ jawaban yang telah anda buat
 
@@ -108,13 +113,6 @@
    #10. Pastikan untuk meng-copy token anda dan menyimpannya, karena token hanya bisa diliat sekali (*Jika hilang, buat token baru)
 
    ```
-   Membuat full request
-   ```sh
-   - Pada halaman repository, klik tombol pull request, kemudian klik "New pull request".
-   - Ubah brach yang dituju sesuai dengan nim kamu ![](/md/ss%20pull%20request.jpg)
-   - Lalu create pull request
-   ```
-   
 11. Masuk ke akun GitHub anda, dan buka repo yang telah anda **fork** dan **clone**. Lihat perubahan yang terjadi pada repo tersebut dan pastikan bahwa tugas yang
    telah anda **push** sesuai dan berada pada repo tersebut.
    
