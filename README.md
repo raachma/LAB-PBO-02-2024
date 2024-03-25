@@ -10,7 +10,7 @@
 
 1. **Fork** repositori ini ke akun git kamu
    - pastikan telah login terlebih dahulu
-   - klik tombol **Fork** di sudut kanan atas
+   - klik tombol **Fork** di sudut kanan atas ![](/ss/ss%20fork%20repo.jpg)
    - kemudian klik **Create fork**
 
 3. **Clone** repositori yang telah di **fork** ke akun anda
