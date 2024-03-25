@@ -74,9 +74,10 @@
    git commit -m "pesan mengenai penambahan atau perubahan apa yang anda lakukan"
    
    ```
+   
    Membuat full request
    - Pada halaman repository, klik tombol pull request, kemudian klik "New pull request".
-   - Ubah brach yang dituju sesuai dengan nim kamu (/md/ss%20pull%20request.jpg)
+   - Ubah brach yang dituju sesuai dengan nim kamu ![](/md/ss%20pull%20request.jpg)
    - Lalu create pull request
 
 
