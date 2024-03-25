@@ -8,9 +8,12 @@
 
 ## Alur pengumpulan tugas ke repositori ini:
 
-1. **Fork** repositori ini
+1. **Fork** repositori ini ke akun git kamu
+   - pastikan telah login terlebih dahulu
+   - klik tombol **Fork** di sudut kanan atas
+   - kemudian klik **Create fork**
 
-2. **Clone** repositori hasil **fork** anda
+3. **Clone** repositori yang telah di **fork** ke akun anda
 
    ```sh
 
@@ -18,7 +21,7 @@
 
    ```
 
-3. Setelah anda **clone**, masuk ke folder hasil **clone** tersebut lalu buat **branch** dengan nama **NIM** anda
+4. Setelah anda **clone**, masuk ke folder hasil **clone** tersebut lalu buat **branch** dengan nama **NIM** anda
 
    ```sh
 
@@ -30,7 +33,7 @@
 
    ```
 
-4. Setelah anda pindah ke **branch** yang telah anda buat, buat sebuah folder dengan nama **NIM** anda dan masuk ke folder tersebut.
+5. Setelah anda pindah ke **branch** yang telah anda buat, buat sebuah folder dengan nama **NIM** anda dan masuk ke folder tersebut.
    ```sh
 
    mkdir NIM_ANDA
@@ -39,7 +42,7 @@
    ```
 
 
-5. Didalam folder tersebut, buat sebuah folder dengan nama **Praktikum-n**, **n** = praktikum keberapa
+6. Didalam folder tersebut, buat sebuah folder dengan nama **Praktikum-n**, **n** = praktikum keberapa
    ```sh
 
    mkdir "Praktikum-n"
@@ -72,7 +75,7 @@
    
    ```
 
-8. Setelah asistensi dan tugas anda disetujui, **push** seluruh _file_ jawaban yang telah anda buat
+9. Setelah asistensi dan tugas anda disetujui, **push** seluruh _file_ jawaban yang telah anda buat
 
    ```sh
 
@@ -105,8 +108,14 @@
    #10. Pastikan untuk meng-copy token anda dan menyimpannya, karena token hanya bisa diliat sekali (*Jika hilang, buat token baru)
 
    ```
+   Membuat full request
+   ```sh
+   - Pada halaman repository, klik tombol pull request, kemudian klik "New pull request".
+   - Ubah brach yang dituju sesuai dengan nim kamu ![](/md/ss%20pull%20request.jpg)
+   - Lalu create pull request
+   ```
    
-9. Masuk ke akun GitHub anda, dan buka repo yang telah anda **fork** dan **clone**. Lihat perubahan yang terjadi pada repo tersebut dan pastikan bahwa tugas yang
+11. Masuk ke akun GitHub anda, dan buka repo yang telah anda **fork** dan **clone**. Lihat perubahan yang terjadi pada repo tersebut dan pastikan bahwa tugas yang
    telah anda **push** sesuai dan berada pada repo tersebut.
    
-10. Pilih menu **Pull request** dan lakukan **pull request** pada tugas praktikum anda.
+12. Pilih menu **Pull request** dan lakukan **pull request** pada tugas praktikum anda.
