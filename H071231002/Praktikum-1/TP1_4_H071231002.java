@@ -1,18 +1,18 @@
+package Praktikum.Tuprak;
 import java.util.Scanner;
 
-public class TP1_4_H071231090 {
+public class TP1_4_H071231002 {
     public static void main(String[] args) {
-        Scanner xyz = new Scanner(System.in);
+        Scanner inp = new Scanner(System.in);
         try {
             System.out.print("Masukkan jari-jari lingkaran: ");
-            double jariJari = xyz.nextDouble();
+            double jari = inp.nextDouble();
    
-            double luasLingkaran = Math.PI * Math.pow(jariJari, 2);
+            double luasLingkaran = 3.14 * jari * jari;
             System.out.printf("Luas lingkaran adalah: %.2f", luasLingkaran);
          } catch (Exception e) {
-            System.out.println("Hanya menerima angka");
+            System.out.println("Input bukan angka");
          }
-         xyz.close();
+         inp.close();
     }
-    
 }
