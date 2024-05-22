@@ -1,32 +1,32 @@
-// import java.util.Scanner;
+import java.util.Scanner;
 
-// public class TP1_2_H071201023 {
-//     public static void main(String[] args) {
-//         Scanner scanner = new Scanner(System.in);
+public class TP1_2_H071201023 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-//         System.out.println("Masukkan Judul Film:");
-//         String input = scanner.nextLine();
+        System.out.println("Masukkan Judul Film:");
+        String input = scanner.nextLine();
 
-//         String output = kapital(input);
-//         System.out.println(output);
+        String output = kapital(input);
+        System.out.println(output);
 
-//         scanner.close();
-//     }
+        scanner.close();
+    }
 
-//     public static String kapital(String input) {
-//         String[] words = input.split(" ");
+    public static String kapital(String input) {
+        String[] words = input.split(" ");
 
-//         StringBuilder result = new StringBuilder();
+        StringBuilder result = new StringBuilder();
 
-//         // Loop melalui setiap kata
-//         for (String word : words) {
-//             if (!word.isEmpty()) {
-//                 result.append(Character.toUpperCase(word.charAt(0)))
-//                       .append(word.substring(1).toLowerCase());
-//             }
-//             result.append(" "); 
-//         }
+        // Loop melalui setiap kata
+        for (String word : words) {
+            if (!word.isEmpty()) {
+                result.append(Character.toUpperCase(word.charAt(0)))
+                      .append(word.substring(1).toLowerCase());
+            }
+            result.append(" "); 
+        }
 
-//         return result.toString().trim();
-//     }
-// }
+        return result.toString().trim();
+    }
+}
