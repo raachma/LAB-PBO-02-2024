@@ -86,6 +86,7 @@
    ```sh
 
    # pastikan proses commit telah selesai terhadap setiap file
+   git switch NIM_ANDA
    git push origin NIM_ANDA
 
    ```
