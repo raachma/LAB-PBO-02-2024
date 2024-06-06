@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/fonts/JetBrainsMono-Regular.ttf');
+}
+
+.root {
+    font-family: 'JetBrains Mono';
+}
+
+#combinedLayout {
+    padding: 20;
+    background-color: beige;
+}
+
+#buttonContainer {
+    padding: 20;
+}
+
+#homeButton {
+    -fx-background-color: #2D2D45;
+    -fx-text-fill: white;
+
+    background-color: #2D2D45;
+    padding: 10 20;
+    font-size: 14px;
+}
+
+#layout {
+    text-align: center;
+    padding: 20;
+}
+
+#fotoProfil {
+    -fx-background-radius: 75;
+    border-radius: 50%;
+}
+
+#namaProfil {
+    fill: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#tentangProfil {
+    -fx-fill: #939191;
+    text-align: justify;
+    fill: #939191;
+    font-size: 14px;
+}
