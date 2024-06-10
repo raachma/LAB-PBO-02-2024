@@ -1,0 +1,85 @@
+.root{
+    -fx-background-image: url('file:///E:/PBO/Background/Ungu-Pink.png'); /* Path ke gambar di PC Anda */
+    -fx-background-size: cover; /* Mengatur ukuran gambar agar sesuai dengan elemen */
+    -fx-background-position: center; /* Memposisikan gambar di tengah */
+    -fx-display: flex;
+    -fx-flex-direction: column;
+    -fx-position: absolute;
+    -fx-gap: 10px;
+    -fx-padding-left: 2em;
+    -fx-padding-right: 2em;
+    -fx-padding-bottom: 0.4em; 
+    -fx-border-radius: 25px;
+    -fx-transition: 4s ease-in-out;
+}
+
+.heading{
+    -fx-font-family: "montserrat";
+    -fx-margin: 2em;
+    -fx-text-fill: #000000; /* GhostWhite for a soft look */
+    -fx-font-size: 30px;
+    -fx-text-align: center;
+}
+
+.field{
+    -fx-align-items: center;
+    -fx-gap: 1em;
+    -fx-background-radius: 25px;
+    -fx-padding: 1em;
+    -fx-border: none;
+    -fx-outline: none;
+    /* -fx-font-size: 10px; */
+    -fx-text-fill: #000000; /* Lavender for a soft look */
+    -fx-background-color: #ff00ee; /* MediumPurple background */
+    -fx-effect: dropshadow(gaussian, rgba(89, 0, 80, 0.824), 10, 0.5, 2, 2); /* Adjusted for a purple shadow */
+}
+
+.input-field{
+    -fx-background: none;
+    -fx-border: none;
+    -fx-outline: none;
+    -fx-width: 100%;
+    -fx-color: #ff00ee; /* Plum color */
+}
+
+.form-hover{
+    -fx-background-color: #ff00ee; /* Violet background */
+    -fx-text-fill: #000000; /* White text */
+    -fx-font-family: "Poppins";
+}
+
+.ayo{
+    -fx-font-size: 16px;
+    -fx-text-fill: #000000; /* Plum color */
+}
+
+.ayo1{
+    -fx-font-size: 28px;
+    -fx-text-fill: #ff00ee; /* Plum color */
+    /* -fx-pref-width: 200px; */
+}
+
+
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 0;
+}
+
+.form-hover {
+    -fx-background-color: #0073e6; /* Blue background */
+    -fx-text-fill: white;          /* White text */
+    -fx-font-size: 14px;           /* Font size */
+    -fx-padding: 10px 20px;        /* Padding */
+    -fx-border-radius: 5px;        /* Rounded corners */
+    -fx-background-radius: 5px;    /* Rounded corners */
+}
+
+.form-hover:hover {
+    -fx-background-color: #005bb5; /* Darker blue on hover */
+    -fx-cursor: hand;              /* Hand cursor on hover */
+}
+
+.form-hover:pressed {
+    -fx-background-color: #004494; /* Even darker blue on press */
+}
